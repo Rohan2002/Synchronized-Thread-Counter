@@ -60,8 +60,8 @@ void *sub(void *arg)
 }
 int main()
 {
-    int producers = 5;
-    int consumers = 4;
+    int producers = 1;
+    int consumers = 1;
 
     pthread_t *producer_ts = malloc(producers * sizeof(pthread_t));
     pthread_t *consumer_ts = malloc(consumers * sizeof(pthread_t));

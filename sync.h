@@ -1,6 +1,7 @@
 #pragma once
 
-struct thread_args {
+struct thread_args
+{
     int target;
     int counter;
     int delta;
@@ -10,5 +11,5 @@ struct thread_args {
 };
 typedef struct thread_args thread_arg_t;
 
-void* add(void*);
-void* sub(void*);
+void *add(void *);
+void *sub(void *);
